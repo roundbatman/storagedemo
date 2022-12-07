@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <RootNamespace>StorageMangler</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Update="appsettings.Local.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\StorageMangler.Domain.Utilities\StorageMangler.Domain.Utilities.csproj" />
+      <ProjectReference Include="..\StorageMangler.Domain\StorageMangler.Domain.csproj" />
+      <ProjectReference Include="..\StorageMangler.Infrastructure\StorageMangler.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
