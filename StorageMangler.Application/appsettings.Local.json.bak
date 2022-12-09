@@ -1,4 +1,0 @@
-{
-  "blobStorageConString": "BlobEndpoint=https://githubdemo.blob.core.windows.net/;QueueEndpoint=https://githubdemo.queue.core.windows.net/;FileEndpoint=https://githubdemo.file.core.windows.net/;TableEndpoint=https://githubdemo.table.core.windows.net/;SharedAccessSignature=sv=2021-06-08&ss=b&srt=sco&sp=rwdlaciytfx&se=2023-02-28T21:42:04Z&st=2022-12-07T13:42:04Z&spr=https&sig=GyXfnbcbK4HLUBF7j%2Fc2UmY%2FonkeS%2FkCv%2FDOgVppCAg%3D",
-  "tableStorageConString": "DefaultEndpointsProtocol=https;AccountName=tabledemo;AccountKey=PTPhkkNPtO0Dd5SfeJLdp77jszpVAoPXv81cDnrkMXBVXaRVcHwN2Jnpxeca8MPwMlsaZN87hQUPACDbP2D6tw==;TableEndpoint=https://tabledemo.table.cosmos.azure.com:443/;"
-}
