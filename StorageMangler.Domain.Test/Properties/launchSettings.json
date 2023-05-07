@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "StorageMangler.Domain.Test": {
+      "commandName": "Project",
+      "nativeDebugging": true,
+      "jsWebView2Debugging": false
+    },
+    "Profile 1": {
+      "commandName": "Project",
+      "nativeDebugging": true,
+      "jsWebView2Debugging": false
+    }
+  }
+}
